@@ -222,6 +222,10 @@ a {
   text-align: justify;
 }
 
+.skills__list {
+  padding-left: 20px;
+}
+
 /*
 *   EXPERIENCE AND ADDITIONAL INFO STYLES
 */
