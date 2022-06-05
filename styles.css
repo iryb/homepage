@@ -82,6 +82,9 @@ a {
   .button {
     padding: 10px;
   }
+  .contact-info__block {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 576px) {
