@@ -79,6 +79,9 @@ a {
   .resume-container {
     padding-left: 85px;
   }
+  .button {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 576px) {
