@@ -393,6 +393,7 @@ a {
   position: fixed;
   width: 130px;
   padding: 15px;
+  z-index: 2;
 }
 
 .navigation__list {
