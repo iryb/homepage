@@ -471,9 +471,14 @@ img {
 *   PROJECTS STYLES
 */
 
+.project:not(:last-child) {
+  padding-bottom: 30px;
+}
+
 .project__header {
   margin-bottom: 15px;
   font-size: 18px;
+  color: var(--text-decoration-color);
 }
 
 .project__links {
