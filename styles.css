@@ -513,3 +513,67 @@ img {
 .technologies__list {
   padding-left: 20px;
 }
+
+/*
+*   INTERERSTS STYLES
+*/
+
+.joke {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 550px;
+  margin: auto;
+}
+
+.joke__text {
+  width: 60%;
+  font-size: 32px;
+  line-height: 1.2;
+  padding: 20px;
+  color: var(--text-decoration-color);
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--text-decoration-color);
+}
+
+.joke__image {
+  width: 40%;
+}
+
+.interests__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.interests__list-item {
+  padding: 10px;
+}
+
+.interest__icon {
+  height: 30px;
+  vertical-align: middle;
+  fill: var(--text-decoration-color);
+  margin-right: 5px;
+}
+
+.interests__image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .joke__text, .joke__image {
+    width: 100%;
+  }
+
+  .joke__text {
+    font-size: 26px;
+  }
+
+  .joke__image {
+    text-align: center;
+  }
+}
