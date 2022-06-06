@@ -67,6 +67,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .button {
   padding: 15px 30px;
   background-color: var(--text-decoration-color);
@@ -460,4 +465,46 @@ a {
     width: auto;
     height: 20px;
   }
+}
+
+/*
+*   PROJECTS STYLES
+*/
+
+.project__header {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.project__links {
+  padding-bottom: 10px;
+}
+
+.project__links a {
+  color: var(--primary-text-color);
+  text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline;
+  width: max-content;
+  transition: all 300ms;
+}
+
+.project__links a:hover {
+  color: var(--text-decoration-color);
+  transition: all 300ms;
+}
+
+.project__image {
+  padding-bottom: 20px;
+}
+
+.project__block:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.project__sub-header {
+  margin-bottom: 10px;
+}
+
+.technologies__list {
+  padding-left: 20px;
 }
